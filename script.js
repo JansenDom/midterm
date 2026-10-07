@@ -92,11 +92,11 @@ if (typeof document !== "undefined") {
             lostLocation.selectedIndex = 0;
             confirmInfo.checked = false;
 
-            reporterNameError.textContent = "Select where the item was lost.";
-            reporterEmailError.textContent = "Confirm that the information is correct.";
-            itemDescriptionError.textContent = "Enter a valid name.";
-            lostLocationError.textContent = "Enter a valid email address.";
-            confirmInfoError.textContent = "Enter at least 5 characters.";
+            const reporterNameError = reporterNameError.textContent = "Select where the item was lost.";
+            const reporterEmailError = reporterEmailError.textContent = "Confirm that the information is correct.";
+            const itemDescriptionError = itemDescriptionError.textContent = "Enter a valid name.";
+            const lostLocationError = lostLocationError.textContent = "Enter a valid email address.";
+            const confirmInfoError = confirmInfoError.textContent = "Enter at least 5 characters.";
 
             resultHeading.textContent = "Lost Item Report Submitted";
             resultDetails.textContent = "No details available.";
