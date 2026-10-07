@@ -60,6 +60,7 @@ if (typeof document !== "undefined") {
 
             nameOk = isValidName(reporterName.value);
             emailOk = isValidEmail(reporterEmail.value);
+            descriptionOk = isValidDescription(itemDescription.value);
 
             locationValue = lostLocation.value;
             locationOk = locationValue === "";
