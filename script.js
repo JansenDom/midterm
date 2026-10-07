@@ -76,7 +76,7 @@ if (typeof document !== "undefined") {
                 resultHeading.textContent = "";
                 resultDetails.textContent = "";
                 resultSection.style.display = "none";
-                return;
+                return true;
             }
 
             resultHeading.textContent = "Submission failed";
